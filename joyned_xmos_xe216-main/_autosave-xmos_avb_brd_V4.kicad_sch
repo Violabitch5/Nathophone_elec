@@ -2,51 +2,9 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9db9e16b-fbc5-446d-9b63-359d495cac84")
+	(uuid "a30a34bc-d655-4232-8e86-b37d2ea1ca6d")
 	(paper "A4")
 	(lib_symbols)
-	(sheet
-		(at 177.8 25.4)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a9281dfb-95f1-4074-a5ea-338650616580")
-		(property "Sheetname" "xmos_avb_brd_V4_4"
-			(at 177.8 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "xmos_avb_brd_V4_4.kicad_sch"
-			(at 177.8 29.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "xmos_avb_brd_V4"
-				(path "/9db9e16b-fbc5-446d-9b63-359d495cac84"
-					(page "4")
-				)
-			)
-		)
-	)
 	(sheet
 		(at 25.4 25.4)
 		(size 12.7 3.81)
@@ -62,7 +20,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b3aaef14-deee-4945-b69b-3fbff9ae57e2")
+		(uuid "15760c4b-46ab-40c0-b1dc-3a2d2de7fc14")
 		(property "Sheetname" "xmos_avb_brd_V4_1"
 			(at 25.4 24.6884 0)
 			(effects
@@ -83,8 +41,50 @@
 		)
 		(instances
 			(project "xmos_avb_brd_V4"
-				(path "/9db9e16b-fbc5-446d-9b63-359d495cac84"
+				(path "/a30a34bc-d655-4232-8e86-b37d2ea1ca6d"
 					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8480a500-f1aa-4037-83a2-49de69b59a96")
+		(property "Sheetname" "xmos_avb_brd_V4_4"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xmos_avb_brd_V4_4.kicad_sch"
+			(at 177.8 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xmos_avb_brd_V4"
+				(path "/a30a34bc-d655-4232-8e86-b37d2ea1ca6d"
+					(page "4")
 				)
 			)
 		)
@@ -104,7 +104,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b75331aa-381e-4b06-96f2-dd45d2a1ad09")
+		(uuid "8cc24160-57db-4cf9-b354-bf11444eb319")
 		(property "Sheetname" "xmos_avb_brd_V4_2"
 			(at 76.2 24.6884 0)
 			(effects
@@ -125,7 +125,7 @@
 		)
 		(instances
 			(project "xmos_avb_brd_V4"
-				(path "/9db9e16b-fbc5-446d-9b63-359d495cac84"
+				(path "/a30a34bc-d655-4232-8e86-b37d2ea1ca6d"
 					(page "2")
 				)
 			)
@@ -146,7 +146,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fbe5afa2-6d4b-45c6-8d72-d2e53daa858d")
+		(uuid "97e91578-d915-4a12-b02b-f6398c2af58b")
 		(property "Sheetname" "xmos_avb_brd_V4_3"
 			(at 127 24.6884 0)
 			(effects
@@ -167,7 +167,7 @@
 		)
 		(instances
 			(project "xmos_avb_brd_V4"
-				(path "/9db9e16b-fbc5-446d-9b63-359d495cac84"
+				(path "/a30a34bc-d655-4232-8e86-b37d2ea1ca6d"
 					(page "3")
 				)
 			)
