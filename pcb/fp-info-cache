@@ -1,4 +1,4 @@
-26391523115948073
+26403846544807837
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105042,12 +105042,47 @@ IC_TLA2024IRUGR
 10
 10
 symbols_footprints
+IND_SRU1048-150Y
+
+
+0
+2
+2
+symbols_footprints
 QFN50P600X400X103-32N240X440
 
 
 0
 38
 38
+symbols_footprints
+SOT65P210X110-6N
+
+
+0
+6
+6
+symbols_footprints
+SWITCH_43SMTR92LFS
+
+PTS645SM43SMTR92LFS 
+0
+4
+4
+symbols_footprints
+SW_DS04-254-2-01BK-SMT
+
+
+0
+2
+2
+symbols_footprints
+TE_1-1571986-1
+
+
+0
+5
+5
 symbols_footprints
 VQFN32_RSM0032B
 
@@ -105062,6 +105097,20 @@ TAS5720LRSMR
 0
 33
 33
+symbols_footprints
+WE-HCI_1050
+
+
+0
+2
+2
+symbols_footprints
+WE-LQS_4025
+
+
+0
+2
+2
 symbols_footprints
 WE-LQS_8065
 
