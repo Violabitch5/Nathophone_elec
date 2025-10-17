@@ -6101,7 +6101,7 @@
 		)
 		(uuid "1205a1c4-2802-4b74-af29-7b1509821ce0")
 	)
-	(label "OUT1_P"
+	(label "OUT3_P"
 		(at 138.43 44.45 0)
 		(effects
 			(font
@@ -6232,7 +6232,7 @@
 		)
 		(uuid "924ea329-b1ba-42fd-8f58-aa838eac93f6")
 	)
-	(label "OUT2_P"
+	(label "OUT4_P"
 		(at 251.46 100.33 0)
 		(effects
 			(font
@@ -6252,7 +6252,7 @@
 		)
 		(uuid "a8858a76-da4a-4ae3-942b-daa3c9214c10")
 	)
-	(label "OUT2_N"
+	(label "OUT4_N"
 		(at 251.46 118.11 0)
 		(effects
 			(font
@@ -6262,7 +6262,7 @@
 		)
 		(uuid "bfecd10f-161e-4a63-ac2d-4d99b168d1fd")
 	)
-	(label "OUT1_N"
+	(label "OUT3_N"
 		(at 138.43 57.15 0)
 		(effects
 			(font

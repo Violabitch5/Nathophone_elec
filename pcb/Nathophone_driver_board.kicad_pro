@@ -722,6 +722,48 @@
       ],
       "OUT2_P": [
         "DRV_Output"
+      ],
+      "OUT3_N": [
+        "DRV_Output"
+      ],
+      "OUT3_P": [
+        "DRV_Output"
+      ],
+      "OUT4_N": [
+        "DRV_Output"
+      ],
+      "OUT4_P": [
+        "DRV_Output"
+      ],
+      "OUT5_N": [
+        "DRV_Output"
+      ],
+      "OUT5_P": [
+        "DRV_Output"
+      ],
+      "OUT6_N": [
+        "DRV_Output"
+      ],
+      "OUT6_P": [
+        "DRV_Output"
+      ],
+      "~{FAULT_0}": [
+        "Data_Signals"
+      ],
+      "~{FAULT_1}": [
+        "Data_Signals"
+      ],
+      "~{FAULT_2}": [
+        "Data_Signals"
+      ],
+      "~{FAULT_3}": [
+        "Data_Signals"
+      ],
+      "~{FAULT_4}": [
+        "Data_Signals"
+      ],
+      "~{FAULT_5}": [
+        "Data_Signals"
       ]
     },
     "netclass_patterns": [
@@ -804,6 +846,34 @@
       {
         "netclass": "Data_Signals",
         "pattern": "Group_SDZ"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{FAULT_5}"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{FAULT_4}"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{FAULT_3}"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{FAULT_2}"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{FAULT_1}"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{FAULT_0}"
+      },
+      {
+        "netclass": "Data_Signals",
+        "pattern": "~{Group_SDZ}"
       }
     ]
   },
