@@ -9974,7 +9974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "symbols_footprints:VQFN32_RSM0032B"
+		(property "Footprint" "symbols_footprints:VQFN32_RSM0032B_NV"
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "symbols_footprints:VQFN32_RSM0032B"
+		(property "Footprint" "symbols_footprints:VQFN32_RSM0032B_NV"
 			(at 101.6 57.15 0)
 			(effects
 				(font

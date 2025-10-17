@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TAS5720LRSMR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.2 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6b33c811-4e02-41b4-b752-17f5f0db90e2")
@@ -448,13 +448,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bd05cbf0-c24f-45e4-bfe2-b0046aa65801")
 	)
-	(pad "33" smd rect
-		(at 0.000003 0)
-		(size 2.799999 2.799999)
-		(layers "F.Cu" "F.Mask")
-		(uuid "18148019-703e-48cb-9cff-ef555adcb99a")
-	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at -1.15 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -462,7 +456,7 @@
 		(remove_unused_layers no)
 		(uuid "0828103d-8abd-4227-b2a8-fb2168ac73c5")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0.000003 -1.15)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -470,7 +464,7 @@
 		(remove_unused_layers no)
 		(uuid "c5d77f63-1a96-4ae8-8c87-eb91aeabca15")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0.000003 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -478,7 +472,13 @@
 		(remove_unused_layers no)
 		(uuid "88a96bcb-a9c1-4718-a29b-d78fec59986a")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" smd rect
+		(at 0.000003 0)
+		(size 2.799999 2.799999)
+		(layers "F.Cu" "F.Mask")
+		(uuid "18148019-703e-48cb-9cff-ef555adcb99a")
+	)
+	(pad "33" thru_hole circle
 		(at 0.000003 1.15)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -486,7 +486,7 @@
 		(remove_unused_layers no)
 		(uuid "524bc167-dfb2-42dd-98e4-0c7c4fcdea4e")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 1.15 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
