@@ -7,7 +7,7 @@
 	(title_block
 		(title "Nathophone Driver Board")
 		(date "2025-10-13")
-		(rev "v1")
+		(rev "v0")
 		(company "Juventus Technikerschule HF")
 	)
 	(lib_symbols
@@ -8435,6 +8435,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 213.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "534903ad-edfb-45af-aef5-6a9a1a884f9f")
 		)
@@ -8522,6 +8531,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW08051M00FKEA"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3903b52a-bfd9-48fb-a053-4422fd346254")
 		)
@@ -8607,6 +8625,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21C103JBF1PNE"
+			(at 210.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8763,6 +8790,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
@@ -8842,6 +8878,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW08051M00FKEA"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8930,6 +8975,15 @@
 				)
 			)
 		)
+		(property "MPN" "ECH-U1H103JX5"
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d696574-2e7c-4cda-ab22-273dd6d0413e")
 		)
@@ -9014,6 +9068,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "TPSMB2616CA"
+			(at 48.26 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9161,6 +9224,15 @@
 			)
 		)
 		(property "Key Info" ""
+			(at 161.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 161.29 186.69 0)
 			(effects
 				(font
@@ -9447,6 +9519,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL31B106KAHNNNE"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e12805dd-a1c9-4e8e-a98e-7f131cc98d63")
 		)
@@ -9532,6 +9613,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21C221JBANNNC"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9621,6 +9711,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1041d74-c632-4aa4-a97f-244fb239f7aa")
 		)
@@ -9695,6 +9794,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "FDN340PTR-ND"
+			(at 92.71 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDN340P"
 			(at 92.71 166.37 0)
 			(effects
 				(font
@@ -9793,6 +9901,15 @@
 				)
 			)
 		)
+		(property "MPN" "0ZCJ0025AF2E"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e2fd929-c943-4500-9c30-d515760e8379")
 		)
@@ -9878,6 +9995,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "0ZCJ0025AF2E"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9968,6 +10094,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
@@ -10049,6 +10184,15 @@
 				)
 			)
 		)
+		(property "MPN" "0ZCJ0025AF2E"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a4742b7-98b3-4bb4-8e6d-0a7688f6598e")
 		)
@@ -10112,6 +10256,15 @@
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
 			(at 118.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 118.11 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,6 +10428,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW080556K0FKEA"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "421179dc-6269-43fb-9bba-e4d663c4923d")
 		)
@@ -10426,6 +10588,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11104,6 +11275,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW0805750RFKEA"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddadc1e2-7b37-474d-ab65-5d32b197d39a")
 		)
@@ -11585,6 +11765,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "MFHA1206R5000FC"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ecb52805-63d0-4e1d-b7bf-d54249b6bb9b")
 		)
@@ -11800,6 +11989,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21C221JBANNNC"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12028,6 +12226,15 @@
 				)
 			)
 		)
+		(property "MPN" "CMD15-21VGD/TR8"
+			(at 69.85 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f04937fc-9ebe-40de-91a2-7d302ad751cc")
 		)
@@ -12113,6 +12320,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL31B106KAHNNNE"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12267,6 +12483,15 @@
 				)
 			)
 		)
+		(property "MPN" "GXC1H470MCQ1GS"
+			(at 220.98 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8ce9714-8e8a-49c6-ab10-4bf6b1c375f7")
 		)
@@ -12352,6 +12577,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12441,6 +12675,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW080515K0FKEA"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "012e886e-8f45-4f3b-bccb-cc5ad1b0cdcb")
 		)
@@ -12510,6 +12753,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "1016-1873-2-ND"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPX3819M5-L-3-3/TR"
 			(at 198.12 138.43 0)
 			(effects
 				(font
@@ -12614,6 +12866,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 227.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4eba0805-6b96-4244-99af-6ceb2396986f")
 		)
@@ -12701,6 +12962,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21C103JBF1PNE"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f7bd8a8-df6b-4de6-bea9-58873720e15d")
 		)
@@ -12786,6 +13056,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW08051M00FKEA"
+			(at 201.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13006,6 +13285,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
@@ -13217,6 +13505,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21C102JBCNFNC"
+			(at 118.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e57f1698-b590-401f-a545-d4ef735f8109")
 		)
@@ -13367,6 +13664,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW08051M00FKEA"
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13684,6 +13990,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PJ-063AH"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S2"
 			(uuid "22a9c265-1b2d-43e9-ba39-172e618775cd")
 		)
@@ -13774,6 +14089,15 @@
 				)
 			)
 		)
+		(property "MPN" "7443251000"
+			(at 185.42 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee081aed-61fd-4980-8c76-f1171ce687a5")
 		)
@@ -13861,6 +14185,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW08053K60FKEA"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "581c32b2-4c3d-4a90-8d13-7801bea91ad5")
 		)
@@ -13941,6 +14274,15 @@
 			)
 		)
 		(property "Key Info" ""
+			(at 161.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 161.29 176.53 0)
 			(effects
 				(font
@@ -14046,6 +14388,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "450-1518-ND"
+			(at 54.61 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1-1571986-1"
 			(at 54.61 26.67 90)
 			(effects
 				(font
@@ -14198,6 +14549,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4af5ffcb-78b4-4b3d-a9d9-25fdc3239671")
 		)
@@ -14280,6 +14640,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW080514K0FKEA"
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14367,6 +14736,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14522,6 +14900,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW0805178KFKEA"
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5adbcefb-5455-498e-9f94-6304b5127b8a")
 		)
@@ -14675,6 +15062,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "C3216X7R2A475K160AC"
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86f5dd24-cd20-4625-a9c0-654369f67979")
 		)
@@ -14762,6 +15158,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "C3216X7R2A475K160AC"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e84ea94d-9fbd-49f7-9362-18081465e8ca")
 		)
@@ -14831,6 +15236,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "609-54202-S0806ALFTR-ND"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "54202-S0806ALF"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -15088,6 +15502,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
@@ -15153,6 +15576,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "FDN340PTR-ND"
+			(at 76.2 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDN340P"
 			(at 76.2 158.75 90)
 			(effects
 				(font
@@ -15246,6 +15678,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "FQD11P06TM"
+			(at 88.9 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15409,6 +15850,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "LT8650SEV#PBF"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -15594,6 +16044,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW08051M00FKEA"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7c6236c-bba3-4117-ac34-525645805dea")
 		)
@@ -15679,6 +16138,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15972,6 +16440,15 @@
 				)
 			)
 		)
+		(property "MPN" "CMD15-21VGD/TR8"
+			(at 27.94 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65923a1e-16bb-4d40-98a9-f23d6f29fa14")
 		)
@@ -16145,7 +16622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.4652 102.87 0)
 			(effects
 				(font
@@ -16172,7 +16649,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey_PartNo" "1276-1792-2-ND"
+		(property "DigiKey_PartNo" "1276-6694-2-ND"
 			(at 190.5 99.06 0)
 			(effects
 				(font
@@ -16181,13 +16658,22 @@
 				(hide yes)
 			)
 		)
-		(property "Key Info" "C0G/NP0, ±0,1pF, 50V"
+		(property "Key Info" "C0G/NP0, ±0,25pF, 50V"
 			(at 186.436 105.156 90)
 			(effects
 				(font
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL05C4R7CB51PNC"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16263,6 +16749,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "2N7002H-7DITR-ND"
+			(at 73.66 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002H-7"
 			(at 73.66 172.72 0)
 			(effects
 				(font
@@ -16358,6 +16853,15 @@
 				)
 			)
 		)
+		(property "MPN" "74404043010A"
+			(at 185.42 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd1ee260-73b5-459c-acf8-0593e6bc04a0")
 		)
@@ -16443,6 +16947,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21C102JBCNFNC"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16718,6 +17231,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "2N7002H-7DITR-ND"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002H-7"
 			(at 30.48 105.41 0)
 			(effects
 				(font

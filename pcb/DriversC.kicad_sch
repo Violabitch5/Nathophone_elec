@@ -7,7 +7,7 @@
 	(title_block
 		(title "Nathophone Driver Board")
 		(date "2025-10-13")
-		(rev "v1")
+		(rev "v0")
 		(company "Juventus Technikerschule HF")
 	)
 	(lib_symbols
@@ -7218,6 +7218,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW20100000Z0EF"
+			(at 124.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a22925be-f3b4-4bb2-9b14-222241f0cf3a")
 		)
@@ -7287,6 +7296,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "SRU1048-150YTR-ND"
+			(at 49.53 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRU1048-150Y"
 			(at 49.53 175.26 90)
 			(effects
 				(font
@@ -7382,6 +7400,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 246.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28965684-dd33-4306-8f82-ba43d4b76de2")
 		)
@@ -7467,6 +7494,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW08051K00FKEA"
+			(at 62.23 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7622,6 +7658,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SMDTC03680QB00MP00"
+			(at 57.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f89addfe-75c6-4066-bbe4-4c87a3e91546")
 		)
@@ -7772,6 +7817,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM31C5C1H224JE02L"
+			(at 243.84 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7925,6 +7979,15 @@
 				)
 			)
 		)
+		(property "MPN" "A782MS107M1JLAS030"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f26f945-11dd-4a7a-94ab-3327f31d4883")
 		)
@@ -8076,6 +8139,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW20100000Z0EF"
+			(at 49.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8292,6 +8364,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BSS84"
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f370b9f4-d59c-445b-9958-68af16954ed1")
 		)
@@ -8448,6 +8529,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11f91cb2-2392-4b4e-9099-77d0532588e6")
 		)
@@ -8535,6 +8625,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW080522K0FKEB"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4280e2c0-5ae3-4257-8a57-bcf7ac117ef3")
 		)
@@ -8620,6 +8719,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "1862042"
+			(at 149.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8854,6 +8962,15 @@
 				)
 			)
 		)
+		(property "MPN" "CMD17-21VRD/TR8"
+			(at 190.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "707d2588-5a94-43a6-a35a-88e16584e107")
 		)
@@ -8939,6 +9056,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM3195C1H104JA05D"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9028,6 +9154,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "GRM3195C1H104JA05D"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e37338ef-9497-4b6c-a2ef-1c3a8ca96744")
 		)
@@ -9115,6 +9250,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "GRM3195C1H104JA05D"
+			(at 22.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01018364-c4e6-4786-989c-262e3a7d84b4")
 		)
@@ -9186,6 +9330,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "296-TAS5720MRSMRTR-ND"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAS5720MRSMR"
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -9364,6 +9517,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SRU1048-150Y"
+			(at 124.46 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f228f6b-6673-4eca-974a-e0110edbf160")
 		)
@@ -9449,6 +9611,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM3195C1H104JA05D"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9538,6 +9709,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51713026-40c0-4664-92db-529c7c067111")
 		)
@@ -9623,6 +9803,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9779,6 +9968,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SMDTC03680QB00MP00"
+			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ebbdb7a-33b3-4a26-a621-2a3d3b5f98e3")
 		)
@@ -9847,6 +10045,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "SRU1048-150YTR-ND"
+			(at 124.46 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRU1048-150Y"
 			(at 124.46 157.48 90)
 			(effects
 				(font
@@ -9942,6 +10149,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW080522K0FKEB"
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e26f255f-1513-4836-83ca-bf39dae998df")
 		)
@@ -10027,6 +10243,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM31C5C1H224JE02L"
+			(at 127 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10249,6 +10474,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 129.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3cbc5e19-c7bd-488f-ac27-a5dccfa8e4d3")
 		)
@@ -10400,6 +10634,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 142.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10620,6 +10863,15 @@
 				)
 			)
 		)
+		(property "MPN" "A782MS107M1JLAS030"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "361483f5-dda4-4f1c-a8d1-35a2ce69fdca")
 		)
@@ -10707,6 +10959,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "GRM31C5C1H224JE02L"
+			(at 127 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0ca55ca-9aee-4f2c-8bc3-dbbd54f97359")
 		)
@@ -10789,6 +11050,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "74404086151"
+			(at 27.94 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10875,6 +11145,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "A782MS107M1JLAS030"
+			(at 22.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10965,6 +11244,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SMDTC03680QB00MP00"
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57a1291f-829e-48dc-b17a-e09b5fa620d6")
 		)
@@ -11050,6 +11338,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMDTC03680QB00MP00"
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11207,6 +11504,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW20100000Z0EF"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59ec0539-fba0-4b9c-a464-66ee64ad7273")
 		)
@@ -11292,6 +11598,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM31C5C1H224JE02L"
+			(at 243.84 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11446,6 +11761,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "471921d5-6ff0-4484-91e1-2f7b7ea35c09")
 		)
@@ -11531,6 +11855,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW080522K0FKEB"
+			(at 186.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11819,6 +12152,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW08051K00FKEA"
+			(at 179.07 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fba71690-63e5-4998-a8f3-ea574e275b38")
 		)
@@ -11959,6 +12301,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "5399-BSS84TR-ND"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS84"
 			(at 57.15 95.25 0)
 			(effects
 				(font
@@ -12112,6 +12463,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SRU1048-150Y"
+			(at 49.53 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e0c432c-6d33-47c2-bcdf-75af08eb8e6d")
 		)
@@ -12200,6 +12560,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW20100000Z0EF"
+			(at 124.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78fdf7bc-f72e-4f8c-b297-c01e963c5abe")
 		)
@@ -12285,6 +12654,15 @@
 				(font
 					(size 0.9525 0.9525)
 				)
+			)
+		)
+		(property "MPN" "1862042"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12388,6 +12766,15 @@
 				)
 			)
 		)
+		(property "MPN" "CMD17-21VRD/TR8"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d5fb052-6771-4170-b204-841c7c2d8243")
 		)
@@ -12450,6 +12837,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 161.29 76.2 0)
 			(effects
 				(font
@@ -12541,6 +12937,15 @@
 				)
 			)
 		)
+		(property "MPN" "A782MS107M1JLAS030"
+			(at 36.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c98096b-71a7-4995-951c-5dda74868689")
 		)
@@ -12626,6 +13031,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12715,6 +13129,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40bc5bc4-016b-4c6c-b811-1f5480067fbd")
 		)
@@ -12786,6 +13209,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "296-TAS5720MRSMRTR-ND"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAS5720MRSMR"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -12972,6 +13404,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21B105KAFNNNE"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

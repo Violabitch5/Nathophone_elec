@@ -7,7 +7,7 @@
 	(title_block
 		(title "Nathophone Driver Board")
 		(date "2025-10-13")
-		(rev "v1")
+		(rev "v0")
 		(company "Juventus Technikerschule HF")
 	)
 	(lib_symbols
@@ -5646,6 +5646,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DS04-254-2-01BK-SMT"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0fab8d4-f575-4e98-b5c0-ab9bd1d914d2")
 		)
@@ -5781,6 +5790,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "051dd48a-3dcf-457a-a628-a20315b82092")
 		)
@@ -5863,6 +5881,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "0ZCJ0025AF2E"
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5958,6 +5985,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CMD15-21VYD/TR8"
+			(at 67.31 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6095,6 +6131,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "296-13495-2-ND"
+			(at 170.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G07DCKR"
 			(at 170.18 130.81 0)
 			(effects
 				(font
@@ -6334,6 +6379,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "GRM3195C1H104JA05D"
+			(at 254 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c39941b-4767-4997-bf21-b5862155a27f")
 		)
@@ -6419,6 +6473,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "0ZCJ0025AF2E"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6563,6 +6626,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "54202-S0806ALF"
+			(at 220.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "752b8218-ca2d-4f24-8b94-8856ba3ad44b")
 		)
@@ -6662,6 +6734,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "609-54202-S0806ALFTR-ND"
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "54202-S0806ALF"
 			(at 218.44 55.88 0)
 			(effects
 				(font
@@ -6770,6 +6851,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "900-0525593072TR-ND"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0525593072"
 			(at 82.55 73.66 0)
 			(effects
 				(font
@@ -6998,6 +7088,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "045bf96e-10f8-4fe1-87a9-f56764840410")
 		)
@@ -7083,6 +7182,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CL21C103JBF1PNE"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "021f0a02-0817-4d03-972a-0ac6eb22ff2b")
 		)
@@ -7155,6 +7263,15 @@
 		)
 		(property "DigiKey_PartNo" "353-SL215B-TPTR-ND"
 			(at 201.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SL215B-TP"
+			(at 201.93 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,6 +7497,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW0805470RJNEA"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08dfd801-845c-481a-bc43-53e786cdea0c")
 		)
@@ -7516,6 +7642,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c01bf02-0a98-4a14-8791-474dc9505da1")
 		)
@@ -7598,6 +7733,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7747,6 +7891,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "2N7002H-7"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc7687e0-efc3-456f-ae8a-99d8d87438a2")
 		)
@@ -7837,6 +7990,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80264d6b-3429-4057-9647-637373e82aab")
 		)
@@ -7912,6 +8074,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "2N7002H-7DITR-ND"
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002H-7"
 			(at 69.85 163.83 0)
 			(effects
 				(font
@@ -8191,6 +8362,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f746fa2-6f09-4265-8723-c9ef59ec84b4")
 		)
@@ -8275,6 +8455,15 @@
 				(justify left)
 			)
 		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 203.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7142b11d-d4b6-43d1-8e60-8cbcff7da608")
 		)
@@ -8346,6 +8535,15 @@
 			)
 		)
 		(property "DigiKey_PartNo" "296-13495-2-ND"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G07DCKR"
 			(at 267.97 148.59 0)
 			(effects
 				(font
@@ -8575,6 +8773,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTS645SM43SMTR92 LFS"
+			(at 132.08 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "194b9400-5bc2-4527-821c-8528cb7ec750")
 		)
@@ -8725,6 +8932,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "MINISMDC125F-2"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8936,6 +9152,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SL215B-TP"
+			(at 100.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c02278ae-28be-4fa1-a30a-351bd4ea39c6")
 		)
@@ -9078,6 +9303,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SN74LVC2G07DCKR"
+			(at 170.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e212c0fa-8e4c-4abd-9715-ee7599535f83")
 		)
@@ -9175,6 +9409,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "MINISMDC125F-2"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9304,6 +9547,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -9459,6 +9711,15 @@
 					(size 0.9525 0.9525)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL21C103JBF1PNE"
+			(at 149.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
