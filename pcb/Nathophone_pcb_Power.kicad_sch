@@ -7,7 +7,7 @@
 	(title_block
 		(title "Nathophone Driver Board")
 		(date "2025-10-13")
-		(rev "DRAFT")
+		(rev "v1")
 		(company "Juventus Technikerschule HF")
 	)
 	(lib_symbols
@@ -1778,6 +1778,155 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5780,6 +5929,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 106.68) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df51b10-5103-4173-ba38-18af2bec084f")
+	)
+	(wire
+		(pts
 			(xy 255.27 73.66) (xy 255.27 81.28)
 		)
 		(stroke
@@ -5927,6 +6086,16 @@
 			(type default)
 		)
 		(uuid "3fce1cdd-2c75-4ecd-b01c-38be4800b2c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fe7560-1a46-436f-8ab9-61b2477d762f")
 	)
 	(wire
 		(pts
@@ -6190,13 +6359,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 114.3) (xy 83.82 116.84)
+			(xy 101.6 121.92) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61fa1b86-d287-4ff1-9201-ff27840d6493")
+		(uuid "6156a555-047d-4ca0-b1da-d3d082f61e44")
 	)
 	(wire
 		(pts
@@ -6247,16 +6416,6 @@
 			(type default)
 		)
 		(uuid "6a9d061d-8465-4af0-9686-eedc4bd8d359")
-	)
-	(wire
-		(pts
-			(xy 88.9 115.57) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b069c17-0a9f-48c7-866c-391d7b3aafcd")
 	)
 	(wire
 		(pts
@@ -6500,16 +6659,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 116.84) (xy 95.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877455a7-7d48-440c-b642-d3c859476092")
-	)
-	(wire
-		(pts
 			(xy 233.68 52.07) (xy 233.68 53.34)
 		)
 		(stroke
@@ -6620,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 78.74 119.38)
+			(xy 78.74 119.38) (xy 92.71 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6740,6 +6889,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 119.38) (xy 92.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7eec699-f0c7-41c7-bd47-a5a789324125")
+	)
+	(wire
+		(pts
 			(xy 148.59 22.86) (xy 177.8 22.86)
 		)
 		(stroke
@@ -6810,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 78.74 121.92)
+			(xy 78.74 121.92) (xy 101.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7010,6 +7169,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 115.57) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4299083-1d47-45d7-b568-af2685de0ff5")
+	)
+	(wire
+		(pts
 			(xy 132.08 49.53) (xy 144.78 49.53)
 		)
 		(stroke
@@ -7017,6 +7186,16 @@
 			(type default)
 		)
 		(uuid "c5a1c789-4f65-4882-9852-a2d50b8792a6")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65ad139-7b0e-44a7-929e-09e706e3abd0")
 	)
 	(wire
 		(pts
@@ -9543,6 +9722,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 92.71 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "373f0dca-69ae-493e-ad89-d93d105fe6aa")
+		(property "Reference" "F5"
+			(at 93.98 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 95.25 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PartNo" "5923-0ZCJ0025AF2ETR-ND"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key Info" "24V, 0.25A"
+			(at 89.662 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e2fd929-c943-4500-9c30-d515760e8379")
+		)
+		(pin "1"
+			(uuid "1bf09be5-6a91-49df-a151-ed03d72b9707")
+		)
+		(instances
+			(project "Nathophone_driver_board"
+				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 83.82 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c962179-1b88-4b0c-b75d-3df5bae74c41")
+		(property "Reference" "F6"
+			(at 85.09 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 86.36 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PartNo" "5923-0ZCJ0025AF2ETR-ND"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key Info" "24V, 0.25A"
+			(at 80.772 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abe205fe-0469-468d-8c73-b1f3d37031ca")
+		)
+		(pin "1"
+			(uuid "1c996ef0-eac5-4466-8abb-0850cf6d351b")
+		)
+		(instances
+			(project "Nathophone_driver_board"
+				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 161.29 166.37 0)
 		(unit 1)
@@ -9619,6 +9972,93 @@
 			(project ""
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 101.6 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0e7471-06ce-419b-87bc-11a9565174e7")
+		(property "Reference" "F7"
+			(at 102.87 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 104.14 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PartNo" "5923-0ZCJ0025AF2ETR-ND"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key Info" "24V, 0.25A"
+			(at 98.552 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a4742b7-98b3-4bb4-8e6d-0a7688f6598e")
+		)
+		(pin "1"
+			(uuid "3f57082a-67ef-4e5e-977a-542d0ad89309")
+		)
+		(instances
+			(project "Nathophone_driver_board"
+				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -9852,7 +10292,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 95.25 116.84 0)
+		(at 101.6 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9861,7 +10301,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a6f94b9-200b-4ca3-a284-03d3746d33db")
 		(property "Reference" "#PWR0137"
-			(at 95.25 120.65 0)
+			(at 101.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +10310,7 @@
 			)
 		)
 		(property "Value" "+3.3V_int"
-			(at 95.25 111.76 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +10318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 116.84 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +10327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 116.84 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,7 +10336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 95.25 116.84 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14539,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 83.82 114.3 0)
+		(at 83.82 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14108,7 +14548,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb45ed7e-4756-4724-8e24-c76bf098caae")
 		(property "Reference" "#PWR0135"
-			(at 83.82 118.11 0)
+			(at 83.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14117,7 +14557,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 83.82 109.22 0)
+			(at 83.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14125,7 +14565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 114.3 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14134,7 +14574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 114.3 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14143,7 +14583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 83.82 114.3 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15388,7 +15828,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 115.57 0)
+		(at 92.71 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15397,7 +15837,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec021af7-fc82-4fb0-ba49-44e5240bc51f")
 		(property "Reference" "#PWR0136"
-			(at 88.9 119.38 0)
+			(at 92.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15406,7 +15846,7 @@
 			)
 		)
 		(property "Value" "+5.3V"
-			(at 88.9 110.49 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15414,7 +15854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 115.57 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,7 +15863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 115.57 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15432,7 +15872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 115.57 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

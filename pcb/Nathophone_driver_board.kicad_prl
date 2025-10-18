@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 4,
-    "active_layer_preset": "All Copper Layers",
+    "active_layer": 5,
+    "active_layer_preset": "Front Assembly View",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -20,10 +20,10 @@
       "footprints": false,
       "graphics": false,
       "keepouts": false,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": false,
-      "pads": false,
-      "text": false,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": false
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_d7555555",
+    "visible_layers": "00000000_00000000_00000008_82000022",
     "zone_display_mode": 0
   },
   "git": {

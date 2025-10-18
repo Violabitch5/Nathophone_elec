@@ -7,7 +7,7 @@
 	(title_block
 		(title "Nathophone Driver Board")
 		(date "2025-10-13")
-		(rev "DRAFT")
+		(rev "v1")
 		(company "Juventus Technikerschule HF")
 	)
 	(lib_symbols)

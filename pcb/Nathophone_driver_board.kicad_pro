@@ -200,10 +200,6 @@
           ""
         ],
         [
-          "starved_thermal|127778000|130048000|816802c1-2b63-416c-a06b-f45ed01ba56f|75da02a6-b85b-4e45-a1f4-adae35f6861c|F.Cu",
-          ""
-        ],
-        [
           "starved_thermal|145542000|67968000|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|5b052295-57bd-425d-bd83-56e08f6b8509|F.Cu",
           ""
         ],
@@ -225,10 +221,6 @@
         ],
         [
           "starved_thermal|200637500|93740500|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|304f81e3-d706-49fe-b1d9-03f2abd08f1d|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|200914000|127555000|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|087236ff-c59a-4395-852f-4c9632d93177|F.Cu",
           ""
         ],
         [
@@ -1098,7 +1090,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Nathophone_driver_board.step",
       "svg": "",
       "vrml": ""
     },
