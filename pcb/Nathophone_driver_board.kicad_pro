@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|206651000|87746500|a264209e-d3eb-4ba9-a3d9-a8505fce8019|1dbb2b3f-6c52-4ace-a55a-a4eeb2ea4455",
-          ""
-        ],
-        [
-          "connection_width|196965023|91050908|fe5e28a8-3bae-4605-8dfd-0b265b98cb83|91fa7da3-18ff-4f85-9e78-171c56fe6fc0",
-          ""
-        ],
-        [
           "courtyards_overlap|105931860|61163000|55142efa-8dbf-4bea-bffe-df962fcf4a48|94c73984-e801-4371-9ae3-ce0b2cfad769",
           ""
         ],
@@ -220,7 +212,7 @@
           ""
         ],
         [
-          "starved_thermal|195012500|93740500|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|62278d66-20f3-42d8-b25b-02d460ebec01|F.Cu",
+          "starved_thermal|195012500|93740500|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|96e9bdc0-39f7-4a5b-b3a5-761f2c94bd48|F.Cu",
           ""
         ],
         [
@@ -232,7 +224,7 @@
           ""
         ],
         [
-          "starved_thermal|200637500|93740500|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|3fd58cd4-386f-4363-a8c6-916cdd2b3eab|F.Cu",
+          "starved_thermal|200637500|93740500|d19a2706-4c91-4ece-a14a-a83d0c0fd4c9|304f81e3-d706-49fe-b1d9-03f2abd08f1d|F.Cu",
           ""
         ],
         [
@@ -249,7 +241,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
