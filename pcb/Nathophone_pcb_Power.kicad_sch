@@ -8241,7 +8241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0222fdb5-530b-4caf-b28c-b076ed2dbb9a")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR014"
 			(at 69.85 81.28 0)
 			(effects
 				(font
@@ -8291,7 +8291,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0139")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031d397f-8ab3-4cd8-a485-4805e7ecf3c5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 171.45 137.16 0)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8468,7 +8468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06ef31ef-a16c-446d-a248-6bb0212b97e6")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 85.09 160.0199 0)
 			(effects
 				(font
@@ -8549,7 +8549,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8661,7 +8661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0baf92c2-d6aa-4f87-a046-2f99494c546c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -8711,7 +8711,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8817,7 +8817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14344c7d-ed8a-4036-8e17-111cf055c126")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 97.79 179.0699 0)
 			(effects
 				(font
@@ -8898,7 +8898,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9103,7 +9103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dba75a5-339d-45db-bfb4-51c65731d026")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR013"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -9153,7 +9153,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0138")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9259,7 +9259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23a90626-45b0-4009-bdcb-d29686f9f502")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 60.96 190.5 0)
 			(effects
 				(font
@@ -9309,7 +9309,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9325,7 +9325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d28773-a2ab-4ffa-801c-9498c5ea4572")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR037"
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -9375,7 +9375,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9456,7 +9456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2674d952-0275-4350-bc5e-33dc27d144a7")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 228.6 139.6999 0)
 			(effects
 				(font
@@ -9537,7 +9537,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9838,7 +9838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "373f0dca-69ae-493e-ad89-d93d105fe6aa")
-		(property "Reference" "F5"
+		(property "Reference" "F2"
 			(at 93.98 107.442 0)
 			(effects
 				(font
@@ -9919,7 +9919,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "F5")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -9934,7 +9934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c962179-1b88-4b0c-b75d-3df5bae74c41")
-		(property "Reference" "F6"
+		(property "Reference" "F1"
 			(at 85.09 107.442 0)
 			(effects
 				(font
@@ -10015,7 +10015,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "F6")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -10121,7 +10121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0e7471-06ce-419b-87bc-11a9565174e7")
-		(property "Reference" "F7"
+		(property "Reference" "F3"
 			(at 102.87 107.442 0)
 			(effects
 				(font
@@ -10202,7 +10202,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "F7")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -10300,7 +10300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cf0e6e-1352-44c4-a233-6fddd90f6214")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 95.25 158.75 0)
 			(effects
 				(font
@@ -10350,7 +10350,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10365,7 +10365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42e3d50d-a953-46cc-a795-af98e1da9707")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 204.47 109.2199 0)
 			(effects
 				(font
@@ -10446,7 +10446,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10462,7 +10462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a6f94b9-200b-4ca3-a284-03d3746d33db")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR022"
 			(at 101.6 110.49 0)
 			(effects
 				(font
@@ -10512,7 +10512,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0137")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10624,7 +10624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b4dd1f9-9c7f-4f6c-a16d-f6ae1d3cda52")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR045"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -10674,7 +10674,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR036")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10690,7 +10690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "500b8d13-0572-44cb-a969-d4f417f7afe4")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR021"
 			(at 99.06 46.99 0)
 			(effects
 				(font
@@ -10740,7 +10740,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10755,7 +10755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514fdcdc-8a58-4a02-9b70-4f4b51b34d3c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 76.2 185.42 0)
 			(effects
 				(font
@@ -10805,7 +10805,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10821,7 +10821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "522fe1c6-aaf1-4d7b-800a-00191c6688e7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR051"
 			(at 255.27 71.12 0)
 			(effects
 				(font
@@ -10871,7 +10871,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR042")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10886,7 +10886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "543612d9-dded-46d6-b4ec-e250e95416c3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 171.45 153.67 0)
 			(effects
 				(font
@@ -10936,7 +10936,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10951,7 +10951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5594d65b-0efe-4759-83ff-cc0eb8f44ff0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR042"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR034")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11016,7 +11016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "590b76e4-c9ab-4ed4-9dfd-9a0dd7a5ec8a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR050"
 			(at 238.76 152.4 0)
 			(effects
 				(font
@@ -11066,7 +11066,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR041")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11081,7 +11081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c2d3373-6774-4499-8426-298886a1c028")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR047"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -11131,7 +11131,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR038")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11147,7 +11147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d127fb2-8021-46fc-8255-29949ecfb33f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR039"
 			(at 207.01 27.94 0)
 			(effects
 				(font
@@ -11197,7 +11197,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR031")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11308,7 +11308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e9d0564-4b8c-4b60-8ecc-6917940b98f9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR035"
 			(at 193.04 64.77 0)
 			(effects
 				(font
@@ -11358,7 +11358,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR027")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11374,7 +11374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61e3386c-19d9-4a30-9778-ae426a5359d7")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR010"
 			(at 59.69 43.18 0)
 			(effects
 				(font
@@ -11424,7 +11424,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0150")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62de43e1-9487-4dbe-88b9-a1e31d611937")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR038"
 			(at 201.93 123.19 0)
 			(effects
 				(font
@@ -11489,7 +11489,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR030")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11505,7 +11505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e54ec2-a2c9-4e0e-9861-16bc8d4e2675")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR049"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -11555,7 +11555,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR040")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11570,7 +11570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65cc3aca-1eb9-4931-a7c0-9c0759cf87a3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR023"
 			(at 113.03 175.26 0)
 			(effects
 				(font
@@ -11621,7 +11621,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR016")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11702,7 +11702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "687b4081-9ae8-4873-95e4-ac0d0c842405")
-		(property "Reference" "R46"
+		(property "Reference" "R11"
 			(at 223.52 40.6399 0)
 			(effects
 				(font
@@ -11783,7 +11783,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R46")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11798,7 +11798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6941578a-9f12-4669-9cee-fdf24a3df5bb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 207.01 64.77 0)
 			(effects
 				(font
@@ -11848,7 +11848,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11863,7 +11863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a2def71-496b-4b55-9f2a-15af89e6117e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 130.81 105.41 0)
 			(effects
 				(font
@@ -11913,7 +11913,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11928,7 +11928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e07d35a-e7eb-4e7d-83c0-0fda59c32966")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 247.65 86.3599 0)
 			(effects
 				(font
@@ -12009,7 +12009,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12024,7 +12024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "703a69e1-089d-4bf7-ac16-ce884c7fda4a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -12074,7 +12074,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12090,7 +12090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7320fb65-d168-426f-85c4-f702dff04f07")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR015"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -12140,7 +12140,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0140")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12155,7 +12155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "769f33e2-cdce-4a83-95bf-a7586a1b72e2")
-		(property "Reference" "D11"
+		(property "Reference" "D3"
 			(at 73.66 95.5674 90)
 			(effects
 				(font
@@ -12244,7 +12244,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12259,7 +12259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78436718-013b-4dc4-96e4-8416018db251")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 242.57 139.6999 0)
 			(effects
 				(font
@@ -12340,7 +12340,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12421,7 +12421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bf4e6f1-bade-4fdc-8f3b-a1c90cf64a9b")
-		(property "Reference" "C93"
+		(property "Reference" "C13"
 			(at 224.79 31.1149 0)
 			(effects
 				(font
@@ -12501,7 +12501,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "C93")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12516,7 +12516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82a560cb-751c-47cb-8863-a11f2beb7deb")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 220.98 57.1499 0)
 			(effects
 				(font
@@ -12597,7 +12597,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12612,7 +12612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "856bbd86-8f6f-4bd8-88fd-c1b5054fd9cc")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 142.24 99.0599 0)
 			(effects
 				(font
@@ -12693,7 +12693,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86d506c8-2485-4597-acda-bf0575fec3e5")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 231.14 77.4699 0)
 			(effects
 				(font
@@ -12884,7 +12884,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -12995,7 +12995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89ff13a6-ab64-442e-8563-582cc11b2d31")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 204.47 97.7899 0)
 			(effects
 				(font
@@ -13076,7 +13076,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13091,7 +13091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c3d7a1d-e4f8-434d-8ed8-8948c7451552")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR044"
 			(at 220.98 54.61 0)
 			(effects
 				(font
@@ -13141,7 +13141,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0149")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13156,7 +13156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "904a9241-0f63-427e-a2ca-27e1a3a86123")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR052"
 			(at 255.27 110.49 0)
 			(effects
 				(font
@@ -13206,7 +13206,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR043")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13312,7 +13312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98f32099-b3a0-47db-8e42-5bb13545ef90")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR034"
 			(at 182.88 45.72 0)
 			(effects
 				(font
@@ -13362,7 +13362,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13377,7 +13377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99ac3290-3fe1-40d1-9f22-e84620f997a5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR043"
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -13427,7 +13427,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR035")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13538,7 +13538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cf12cbb-5bc0-4df2-9e78-57a3c9b5b7d7")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR025"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -13588,7 +13588,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0152")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13765,7 +13765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a29de07e-dbbe-4757-a8b6-0a50d3e66f04")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 60.96 160.02 0)
 			(effects
 				(font
@@ -13816,7 +13816,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14122,7 +14122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b578a0db-5122-4763-84a4-6277520b4cb1")
-		(property "Reference" "R44"
+		(property "Reference" "R3"
 			(at 72.39 83.8199 0)
 			(effects
 				(font
@@ -14203,7 +14203,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R44")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14438,7 +14438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc007494-9e11-4fda-b755-6c6f9a7a9c54")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR048"
 			(at 227.33 105.41 0)
 			(effects
 				(font
@@ -14488,7 +14488,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR039")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14504,7 +14504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8fea91-6c07-4d14-93b8-20753cbfc589")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 41.91 39.8779 0)
 			(effects
 				(font
@@ -14564,7 +14564,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14579,7 +14579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "beb9929c-23d0-414a-bd58-9c1db71e51da")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 138.43 33.0199 0)
 			(effects
 				(font
@@ -14660,7 +14660,7 @@
 		(instances
 			(project ""
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14675,7 +14675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c20c8bd2-8afb-4a46-b84b-7b8c81d370da")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 231.14 91.4399 0)
 			(effects
 				(font
@@ -14756,7 +14756,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14772,7 +14772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2168196-16dc-432d-9e6f-a618739c18ff")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -14822,7 +14822,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14837,7 +14837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c398897c-f658-4f2d-a408-d7b49dac48a2")
-		(property "Reference" "R48"
+		(property "Reference" "R14"
 			(at 257.81 96.5199 0)
 			(effects
 				(font
@@ -14918,7 +14918,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R48")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14934,7 +14934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb45ed7e-4756-4724-8e24-c76bf098caae")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR017"
 			(at 83.82 110.49 0)
 			(effects
 				(font
@@ -14984,7 +14984,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0135")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15192,7 +15192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceeb4114-c698-49ea-bdb0-d5e47635eb98")
-		(property "Reference" "J12"
+		(property "Reference" "J2"
 			(at 72.39 110.49 0)
 			(effects
 				(font
@@ -15292,7 +15292,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "J12")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15307,7 +15307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5b1071e-64cc-4eb6-90c0-113892fac548")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR036"
 			(at 198.12 153.67 0)
 			(effects
 				(font
@@ -15357,7 +15357,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR028")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15716,7 +15716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcd7ffa3-b918-4f9b-8e65-edfe08e61299")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -15766,7 +15766,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15981,7 +15981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e023e4cd-1e67-4a74-9737-1de5041e8cbb")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 257.81 85.0899 0)
 			(effects
 				(font
@@ -16062,7 +16062,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16077,7 +16077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e057ee01-a737-46a4-9eac-278929f97e6c")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 236.22 57.1499 0)
 			(effects
 				(font
@@ -16158,7 +16158,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -16173,7 +16173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5611315-0f98-4a33-83ef-ee6997331fac")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR046"
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -16223,7 +16223,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR037")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -16238,7 +16238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8cd0f57-d1dc-4d4f-a143-4b6f9f95705c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR041"
 			(at 210.82 158.75 0)
 			(effects
 				(font
@@ -16288,7 +16288,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR033")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16304,7 +16304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec021af7-fc82-4fb0-ba49-44e5240bc51f")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR018"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -16354,7 +16354,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR0136")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16473,7 +16473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee88f10f-5c84-45e8-9303-4a2db67befa9")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 118.11 46.99 0)
 			(effects
 				(font
@@ -16523,7 +16523,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16539,7 +16539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef058742-ebea-49e1-b7e3-4fdf202182eb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 133.35 68.58 0)
 			(effects
 				(font
@@ -16589,7 +16589,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17275,7 +17275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff7584a9-2b40-46da-b350-c87cbb6ed61a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 95.25 191.77 0)
 			(effects
 				(font
@@ -17325,7 +17325,7 @@
 		(instances
 			(project "Nathophone_driver_board"
 				(path "/a109ba74-2574-4a03-88a2-446214ab2b70/0f0086fd-891b-47c4-bbc0-37ad5b0f511e"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

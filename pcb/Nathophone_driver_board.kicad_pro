@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "connection_width|196965115|91056845|9de70fe2-82df-4f60-8f3c-cd5fa34875e1|91fa7da3-18ff-4f85-9e78-171c56fe6fc0",
-          ""
-        ],
-        [
           "courtyards_overlap|105931860|61163000|55142efa-8dbf-4bea-bffe-df962fcf4a48|94c73984-e801-4371-9ae3-ce0b2cfad769",
           ""
         ],
@@ -275,9 +271,9 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -829,6 +825,24 @@
       "Net-(J10-Pin_3)": [
         "DRV_Output"
       ],
+      "Net-(J11-Pin_1)": [
+        "DRV_Output"
+      ],
+      "Net-(J11-Pin_3)": [
+        "DRV_Output"
+      ],
+      "Net-(J12-Pin_1)": [
+        "DRV_Output"
+      ],
+      "Net-(J12-Pin_3)": [
+        "DRV_Output"
+      ],
+      "Net-(J13-Pin_1)": [
+        "DRV_Output"
+      ],
+      "Net-(J13-Pin_3)": [
+        "DRV_Output"
+      ],
       "Net-(J2-Pin_2)": [
         "Power_Input"
       ],
@@ -880,6 +894,9 @@
       "Net-(U3-BST_P)": [
         "DRV_Output"
       ],
+      "Net-(U4-AVDD)": [
+        "Power_DRVs"
+      ],
       "Net-(U4-BST_N)": [
         "DRV_Output"
       ],
@@ -894,6 +911,9 @@
       ],
       "Net-(U5-BST_P)": [
         "DRV_Output"
+      ],
+      "Net-(U6-AVDD)": [
+        "Power_DRVs"
       ],
       "Net-(U6-BST_N)": [
         "DRV_Output"
@@ -910,10 +930,19 @@
       "Net-(U7-BST_P)": [
         "DRV_Output"
       ],
+      "Net-(U8-AVDD)": [
+        "Power_DRVs"
+      ],
       "Net-(U8-BST_N)": [
         "DRV_Output"
       ],
       "Net-(U8-BST_P)": [
+        "DRV_Output"
+      ],
+      "Net-(U9-BST_N)": [
+        "DRV_Output"
+      ],
+      "Net-(U9-BST_P)": [
         "DRV_Output"
       ],
       "OUT1_N": [
