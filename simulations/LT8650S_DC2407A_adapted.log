@@ -2,21 +2,21 @@ Circuit: * C:\Users\natha\Documents\Studium\Juventus\Diplomarbeit\Nathophone_ele
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Nov 09 11:26:42 2025
-Total elapsed time: 1133.668 seconds.
+Date: Sun Nov 09 12:39:12 2025
+Total elapsed time: 1349.648 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 45980145
-traniter = 45980138
-tranpoints = 12105654
-accept = 8995458
-rejected = 3110196
+totiter = 45899377
+traniter = 45899370
+tranpoints = 12099596
+accept = 8985300
+rejected = 3114296
 matrix size = 138
 fillins = 88
 solver = Normal
-Thread vector: 11.1/4.6[6] 5.0/3.1[6] 2.1/1.4[6] 0.4/0.9[1]  2592/500
-Matrix Compiler1: 9.20 KB object code size  1.5/0.8/[0.4]
-Matrix Compiler2: off  [0.7]/1.0/0.9
+Thread vector: 12.0/6.2[6] 5.5/2.8[6] 2.4/1.7[5] 0.4/1.0[1]  2592/500
+Matrix Compiler1: 9.20 KB object code size  1.7/0.9/[0.5]
+Matrix Compiler2: 10.58 KB object code size  0.7/1.1/[0.4]
 

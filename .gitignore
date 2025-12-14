@@ -1,3 +1,7 @@
 simulations/LT8650S_DC2407A_adapted.raw
 simulations/LT8650S_DC2407A_adapted.txt
 simulations/TDM_TransmissionLine.raw
+simulations/TDM_TransmissionLine.op.raw
+simulations/TDM_TransmissionLine_singleterm.op.raw
+simulations/TDM_TransmissionLine_singleterm.raw
+simulations/LT8650S_DC2407A_adapted.op.raw

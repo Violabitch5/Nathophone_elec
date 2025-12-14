@@ -14,6 +14,7 @@
 		(symbol "CON_PJ-063AH:PJ-063AH"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1161,29 +1162,30 @@
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D2"
+				(at 1.2701 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
+			(property "Value" "TPSMB2616CA"
+				(at -1.2699 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SMB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1192,7 +1194,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-tpsmb-datasheet?assetguid=E7A196A8-A225-4724-AB76-7C22E0D48557"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1203,6 +1205,32 @@
 			)
 			(property "Description" "Bidirectional transient-voltage-suppression diode"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_PartNo" "18-TPSMB2616CATR-ND"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Key Info" "39,5V max. Clamp / 14,3A peak"
+				(at -3.048 -12.446 90)
+				(effects
+					(font
+						(size 0.9525 0.9525)
+					)
+				)
+			)
+			(property "MPN" "TPSMB2616CA"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1255,7 +1283,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 2.54 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1268,9 +1296,9 @@
 			)
 			(symbol "D_TVS_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1286,9 +1314,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5220,6 +5248,12 @@
 		(uuid "1f463b9d-331d-4d3e-92c4-d54c531ea980")
 	)
 	(junction
+		(at 46.99 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207b8730-d610-4302-a2ee-5de3a22b3588")
+	)
+	(junction
 		(at 255.27 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5254,6 +5288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b176cbd-88cc-483e-9036-6ea959d4b0f4")
+	)
+	(junction
+		(at 46.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b25074f-f772-4013-91b7-6248f2bd6e9f")
 	)
 	(junction
 		(at 184.15 49.53)
@@ -5400,12 +5440,6 @@
 		(uuid "aa03a7d7-cf86-4fff-839e-0faf30af9387")
 	)
 	(junction
-		(at 48.26 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4290670-3cd6-4744-8f5b-fa37734fa794")
-	)
-	(junction
 		(at 171.45 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5422,12 +5456,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83557f6-f9de-4654-80dc-0ecd09cde7df")
-	)
-	(junction
-		(at 48.26 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d24ebc28-1a1b-451c-9ee9-311c6bdeea14")
 	)
 	(junction
 		(at 95.25 156.21)
@@ -6019,16 +6047,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 72.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3814ab99-0641-4306-8aad-59c33410a434")
-	)
-	(wire
-		(pts
 			(xy 175.26 105.41) (xy 177.8 105.41)
 		)
 		(stroke
@@ -6119,16 +6137,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467edbe2-8d8e-4e2f-bfc1-a5d3ee244627")
-	)
-	(wire
-		(pts
 			(xy 201.93 87.63) (xy 201.93 93.98)
 		)
 		(stroke
@@ -6159,7 +6167,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 48.26 55.88)
+			(xy 40.64 55.88) (xy 46.99 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6266,6 +6274,16 @@
 			(type default)
 		)
 		(uuid "555f2f58-90ed-4f1e-a878-2d160a3fa9f3")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bc2c8f-410a-45d9-9d6b-c2b1bdd45b6f")
 	)
 	(wire
 		(pts
@@ -7149,16 +7167,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 52.07 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b5bf9b-4a32-4162-9ff4-2311f53f708f")
-	)
-	(wire
-		(pts
 			(xy 175.26 59.69) (xy 177.8 59.69)
 		)
 		(stroke
@@ -7299,7 +7307,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 45.72) (xy 48.26 45.72)
+			(xy 39.37 45.72) (xy 46.99 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7426,16 +7434,6 @@
 			(type default)
 		)
 		(uuid "db3d5903-93dc-49dc-9cd8-fcbf46e6c23c")
-	)
-	(wire
-		(pts
-			(xy 48.26 54.61) (xy 48.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8781b1-eb87-4daa-a201-9952ce1ef8fe")
 	)
 	(wire
 		(pts
@@ -7576,6 +7574,16 @@
 			(type default)
 		)
 		(uuid "edbd91e2-24eb-43cc-aa06-5d09cde6874f")
+	)
+	(wire
+		(pts
+			(xy 46.99 45.72) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee79e803-dd74-49c5-856a-f3f9c250dcf9")
 	)
 	(wire
 		(pts
@@ -9001,7 +9009,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 48.26 50.8 90)
+		(at 46.99 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9009,7 +9017,7 @@
 		(dnp no)
 		(uuid "19aca9ba-e981-42c5-92bd-1785482e27e1")
 		(property "Reference" "D2"
-			(at 50.8 49.5299 90)
+			(at 44.958 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,8 +9025,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CP-063AH-ND"
-			(at 50.8 52.0699 90)
+		(property "Value" "TPSMB2616CA"
+			(at 61.976 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9035,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 48.26 50.8 0)
+			(at 46.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9044,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-tpsmb-datasheet?assetguid=E7A196A8-A225-4724-AB76-7C22E0D48557"
-			(at 48.26 50.8 0)
+			(at 46.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9053,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 48.26 50.8 0)
+			(at 46.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9062,7 @@
 			)
 		)
 		(property "DigiKey_PartNo" "18-TPSMB2616CATR-ND"
-			(at 48.26 50.8 90)
+			(at 46.99 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9071,7 @@
 			)
 		)
 		(property "Key Info" "39,5V max. Clamp / 14,3A peak"
-			(at 60.706 53.848 90)
+			(at 58.928 52.832 90)
 			(effects
 				(font
 					(size 0.9525 0.9525)
@@ -9071,7 +9079,7 @@
 			)
 		)
 		(property "MPN" "TPSMB2616CA"
-			(at 48.26 50.8 90)
+			(at 46.99 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -819,6 +819,9 @@
       "Net-(D2-A2)": [
         "Power_Input"
       ],
+      "Net-(D2-K)": [
+        "Power_Input"
+      ],
       "Net-(J10-Pin_1)": [
         "DRV_Output"
       ],
