@@ -5,3 +5,6 @@ simulations/TDM_TransmissionLine.op.raw
 simulations/TDM_TransmissionLine_singleterm.op.raw
 simulations/TDM_TransmissionLine_singleterm.raw
 simulations/LT8650S_DC2407A_adapted.op.raw
+/USBtoI2S_board/nathophone_USBtoI2S/nathophone_USBtoI2S-backups
+/joyned_xmos_xe216-main/xmos_avb_brd_V4-backups
+/pcb/Nathophone_driver_board-backups
