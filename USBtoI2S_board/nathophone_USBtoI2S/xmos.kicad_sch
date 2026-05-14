@@ -704,6 +704,300 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Dual_AKAK"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_AKAK"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.762 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.762 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual LED, cathodes on pins 2 and 4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Dual_AKAK_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Dual_AKAK_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.048)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1013,318 +1307,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:LTST-C235KGKRKT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -5.08 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTST-C235KGKRKT"
-				(at 0 -5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
-				(at 0.762 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
-				(at 0.762 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "LED dual red/green, 4-pin, down-facing"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode bicolor down-facing reverse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*LTST*C235K*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LTST-C235KGKRKT_0_0"
-				(text "R"
-					(at -2.54 1.27 0)
-					(effects
-						(font
-							(size 1.2954 1.2954)
-						)
-					)
-				)
-				(text "G"
-					(at -2.54 -1.27 0)
-					(effects
-						(font
-							(size 1.2954 1.2954)
-						)
-					)
-				)
-			)
-			(symbol "LTST-C235KGKRKT_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 2.032 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 2.032 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.794 6.604) (xy 2.032 6.604) (xy 2.794 6.604) (xy 2.794 5.842)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 4.064 5.334) (xy 3.302 5.334) (xy 4.064 5.334) (xy 4.064 4.572)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LTST-C235KGKRKT_1_1"
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4377,6 +4359,30 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "RD"
+		(exclude_from_sim no)
+		(at 134.874 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2a5fcbe5-f598-46e6-941f-fa40299943cb")
+	)
+	(text "GN"
+		(exclude_from_sim no)
+		(at 123.952 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cb227d34-6b6f-4b52-a880-9f9add3d5c8a")
 	)
 	(junction
 		(at 50.8 100.33)
@@ -7436,16 +7442,6 @@
 		)
 		(uuid "ffe618b9-6c4f-420b-acd1-c9b2c3c62c23")
 	)
-	(label "Rot_Enc_A"
-		(at 105.41 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04155f85-066d-4725-9357-807ffd981be4")
-	)
 	(label "QSPI_D3"
 		(at 52.07 49.53 0)
 		(effects
@@ -7455,16 +7451,6 @@
 			(justify left bottom)
 		)
 		(uuid "13b51959-0d97-4763-bcc1-46397e688440")
-	)
-	(label "{USB_DATA}"
-		(at 240.03 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15c3ab84-6c6e-4292-8fd8-03fedecfeaac")
 	)
 	(label "SCLK"
 		(at 127 44.45 0)
@@ -7486,36 +7472,6 @@
 		)
 		(uuid "24f11c3f-37aa-477f-8898-db61a95c13f8")
 	)
-	(label "Rot_Enc_SW"
-		(at 105.41 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "293a427e-aafd-4a72-8f07-f340392b1a45")
-	)
-	(label "{I2S_TDM}"
-		(at 142.24 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ab9861d-1e97-4e01-8d4c-c4966e8720da")
-	)
-	(label "{XLINK}"
-		(at 134.62 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b1dc02f-db00-4ccc-88d3-aea451217b98")
-	)
 	(label "QSPI_D0"
 		(at 52.07 41.91 0)
 		(effects
@@ -7535,26 +7491,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e86bace-9c9a-43a1-8089-4095fb22626c")
-	)
-	(label "~{VBUS_DET}"
-		(at 59.69 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "552edce6-6c66-4d47-8713-44fe1d74b4c9")
-	)
-	(label "Rot_Enc_B"
-		(at 105.41 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6004a600-34aa-4dd0-a95a-eda4ed2023f5")
 	)
 	(label "XL_DN0"
 		(at 118.11 62.23 0)
@@ -7596,16 +7532,6 @@
 		)
 		(uuid "7289ac72-53b5-4e80-8252-705b2946d1e2")
 	)
-	(label "{I2C}"
-		(at 24.13 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "815941ec-a525-4604-994f-28a143083c34")
-	)
 	(label "MCLK_PIN"
 		(at 101.6 46.99 0)
 		(effects
@@ -7615,16 +7541,6 @@
 			(justify left bottom)
 		)
 		(uuid "851be97b-45e9-4d56-81aa-8b87bc0ab027")
-	)
-	(label "{JTAG}"
-		(at 240.03 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fd4b1e0-a937-4e87-8b0a-da98b2487ec4")
 	)
 	(label "XL_UP0"
 		(at 118.11 64.77 0)
@@ -7656,16 +7572,6 @@
 		)
 		(uuid "98d1cd70-e2c3-41ad-b027-b93a9378b7fb")
 	)
-	(label "{I2S_TDM}"
-		(at 132.08 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a0fc9c7-c6a7-492c-883c-6a2ac734bc22")
-	)
 	(label "USB_D-"
 		(at 220.98 99.06 0)
 		(effects
@@ -7675,16 +7581,6 @@
 			(justify left bottom)
 		)
 		(uuid "a71b45d4-4da1-4495-89fd-683be8adff64")
-	)
-	(label "{QSPI}"
-		(at 38.1 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7509c43-bf1a-444b-8c0e-cfcd20286578")
 	)
 	(label "TMS"
 		(at 220.98 114.3 0)
@@ -7705,16 +7601,6 @@
 			(justify left bottom)
 		)
 		(uuid "b20ffd67-6020-4815-b669-6d437df2e6b9")
-	)
-	(label "GPIO"
-		(at 105.41 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c67e9006-a1f6-4686-9c37-e7e3807d02b7")
 	)
 	(label "SDA"
 		(at 36.83 102.87 0)
@@ -7805,6 +7691,404 @@
 			(justify left bottom)
 		)
 		(uuid "f501a927-69a1-4097-bb2e-9dca46bb5372")
+	)
+	(global_label "~{VBUS_DET}"
+		(shape input)
+		(at 59.69 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d1ddea6-5056-405c-ad29-869c84973e40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.7097 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO"
+		(shape input)
+		(at 105.41 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "116dc674-60ae-4a56-9b11-7fd9269a38ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.4571 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "{XLINK}"
+		(shape bidirectional)
+		(at 134.62 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21b5f63d-a00d-40f2-a00e-23679adb1c21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.1557 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "{I2C}"
+		(shape bidirectional)
+		(at 24.13 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "234d9b6f-c878-4857-a2df-e7d51e9aac65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.1652 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "{QSPI}"
+		(shape bidirectional)
+		(at 38.1 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e5939ee-dd2b-443b-9c51-66b869e9a4a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.7443 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "{I2S_TDM}"
+		(shape bidirectional)
+		(at 142.24 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d2e509c-230c-40d1-9211-c957f3e7eb9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.0711 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "{JTAG}"
+		(shape bidirectional)
+		(at 240.03 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4557d68a-0924-4f98-8bc1-f33e92e93adb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4502 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Rot_Enc_SW"
+		(shape input)
+		(at 105.41 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4aa96331-5163-4abb-8dfa-875798eeb442")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.5417 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Rot_Enc_A"
+		(shape input)
+		(at 105.41 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77bfb9ca-8480-4e96-ad4d-d0cff8cb834b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9436 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Rot_Enc_B"
+		(shape input)
+		(at 105.41 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d71aa51-d0e4-4828-9502-5bf2b3cdfd46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9982 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "{I2S_TDM}"
+		(shape bidirectional)
+		(at 132.08 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b57161d7-55fb-4be0-9248-188d368b59f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9111 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "{USB_DATA}"
+		(shape bidirectional)
+		(at 240.03 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5b831b2-13e5-40bc-ac0d-69e4389695ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.3773 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 129.54 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "018a38fc-e99c-4454-a4ea-dc614e287a8d")
+		(property "Reference" "D2"
+			(at 137.16 152.2729 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XZMDKVG55W-8"
+			(at 137.16 154.8129 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "USB_to_I2S_Board:LED_XZMDKVG55W-8"
+			(at 129.54 154.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZMDKVG55W-8.pdf"
+			(at 129.54 154.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 2 and 4"
+			(at 129.54 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "1497-1183-1-ND"
+			(at 129.54 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XZMDKVG55W-8"
+			(at 129.54 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "5072a3e6-220e-4867-9409-667b1c98f25e")
+		)
+		(pin "3"
+			(uuid "4ab35712-7b8a-444b-89f3-e38eb2e3e74c")
+		)
+		(pin "2"
+			(uuid "8a234ac7-7a34-46b0-b063-b1f771cd3733")
+		)
+		(pin "1"
+			(uuid "95626841-983c-4705-bd78-574eae6f49f9")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/5d5aec94-e23b-4d4e-a1c8-377b9d43f930"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
@@ -9972,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "113R"
+		(property "Value" "750R"
 			(at 124.46 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10016,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Tol." "0.5%"
+		(property "Tol." "1%"
 			(at 124.46 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10027,7 +10311,7 @@
 				(justify left)
 			)
 		)
-		(property "DigiKey Part Number" "541-113CCT-ND"
+		(property "DigiKey Part Number" "541-750CCT-ND"
 			(at 127 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10038,7 +10322,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0805113RFKEA"
+		(property "MPN" "CRCW0805750RFKEA"
 			(at 127 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12512,116 +12796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:LTST-C235KGKRKT")
-		(at 129.54 153.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab0a3d8-0bc0-4c28-864a-5fdea3e75d5f")
-		(property "Reference" "D1"
-			(at 137.16 152.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C235KGKRKT"
-			(at 137.16 154.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
-			(at 129.54 154.432 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
-			(at 129.54 154.432 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED dual red/green, 4-pin, down-facing"
-			(at 129.54 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" "160-2026-1-ND"
-			(at 129.54 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LTST-C235KGKRKT"
-			(at 129.54 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "e3078912-2a33-4a22-9b4e-147ce49eda27")
-		)
-		(pin "3"
-			(uuid "98f3d8f7-435a-4919-af8d-dd74f66b6c62")
-		)
-		(pin "2"
-			(uuid "e7274194-edd4-4481-9de2-e97e34dbeb04")
-		)
-		(pin "1"
-			(uuid "971582ee-aa6c-4a54-a3b2-f8dd01192e38")
-		)
-		(instances
-			(project "nathophone_USBtoI2S"
-				(path "/73083a78-b210-4e93-8003-5766485f96bf/5d5aec94-e23b-4d4e-a1c8-377b9d43f930"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 107.95 64.77 270)
 		(unit 1)
@@ -13105,7 +13279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "147R"
+		(property "Value" "680R"
 			(at 134.62 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +13323,7 @@
 				)
 			)
 		)
-		(property "Tol." "0.5%"
+		(property "Tol." "1%"
 			(at 134.62 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13160,7 +13334,7 @@
 				(justify left)
 			)
 		)
-		(property "DigiKey Part Number" "541-147CCT-ND"
+		(property "DigiKey Part Number" "541-680CCT-ND"
 			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13171,7 +13345,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0805147RFKEA"
+		(property "MPN" "CRCW0805680RFKEA"
 			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)

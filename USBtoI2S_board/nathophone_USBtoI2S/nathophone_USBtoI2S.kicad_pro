@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.35,
-          "width": 1.025
+          "height": 4.0,
+          "width": 3.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -97,7 +97,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -136,7 +136,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.125,
-        "min_connection": 0.2,
+        "min_connection": 0.125,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -269,7 +269,7 @@
           "drill": 0.45
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "bom_rev": "",
@@ -581,7 +581,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB_DIFF",
-        "pattern": "*/USB_D*"
+        "pattern": "*USB_D*"
       },
       {
         "netclass": "Power_GND",
@@ -867,7 +867,7 @@
         "uuid": "73083a78-b210-4e93-8003-5766485f96bf"
       }
     ],
-    "used_designators": "H1-4",
+    "used_designators": "JP1,H1-4,#PWR1-71,D1-2,C1-41,CR1,FB1,J1-4,L1-2,Q1,R1-28,SW1,TP1-14,U1-5,Y1",
     "variants": []
   },
   "sheets": [
