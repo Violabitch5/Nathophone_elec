@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -224,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1V1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -639,7 +652,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -647,8 +660,8 @@
     "top_level_sheets": [
       {
         "filename": "XMS0004.kicad_sch",
-        "name": "XMS0004",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "name": "",
+        "uuid": "3c1314ae-feac-40a7-b0af-9ea4e6e9fe46"
       }
     ],
     "used_designators": "",
@@ -661,7 +674,40 @@
       }
     ]
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3c1314ae-feac-40a7-b0af-9ea4e6e9fe46",
+      ""
+    ],
+    [
+      "289a3236-fec0-40f4-b6b2-8c347bae6abd",
+      "U_XMOS"
+    ],
+    [
+      "5b458315-b393-4368-8e5f-64fb92e25a91",
+      "U_DAC"
+    ],
+    [
+      "84764b35-350e-4c7b-ae2f-1f111ac548af",
+      "U_ADC"
+    ],
+    [
+      "25c33902-f6a8-4797-904a-e56772302801",
+      "U_DigitalIO"
+    ],
+    [
+      "99eba608-1017-4537-a84d-150618ddfaee",
+      "U_Clocks"
+    ],
+    [
+      "c4aae78b-0fc7-458a-bff7-88bc3fa6b817",
+      "U_XTAG4"
+    ],
+    [
+      "e6927140-e1b8-4aa8-b5e6-b7749b3458eb",
+      "U_Power"
+    ]
+  ],
   "text_variables": {
     "CONFIGURATIONPARAMETERS": "",
     "CONFIGURATORNAME": "",

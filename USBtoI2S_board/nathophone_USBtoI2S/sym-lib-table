@@ -3,4 +3,5 @@
 	(lib (name "XU316-1024-TQ128-C24") (type "KiCad") (uri "C:/Users/natha/Documents/Studium/Juventus/Diplomarbeit/Nathophone_elec/USBtoI2S_board/parts/XU316-1024-TQ128-C24.kicad_sym") (options "") (descr ""))
 	(lib (name "Nathophone_Driverboard") (type "KiCad") (uri "C:/Users/natha/Documents/Studium/Juventus/Diplomarbeit/Nathophone_elec/pcb/symbols_footprints") (options "") (descr ""))
 	(lib (name "UJ20-C-H-G-SMT-5-P16-TR") (type "KiCad") (uri "C:/Users/natha/Documents/Studium/Juventus/Diplomarbeit/Nathophone_elec/USBtoI2S_board/parts/UJ20-C-H-G-SMT-5-P16-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "USB_to_I2S_Board") (type "KiCad") (uri "C:/Users/natha/Documents/Studium/Juventus/Diplomarbeit/Nathophone_elec/USBtoI2S_board/parts") (options "") (descr ""))
 )
