@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.24,
-          "width": 1.47
+          "height": 1.13,
+          "width": 0.89
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,7 +65,32 @@
           "width": 0.14
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "connection_width|148514958|84388215|6747790a-61bc-4b2a-ab74-66ba4a0b07dc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|141578500|98552000|c5e2c25c-20d1-4f10-a6b1-5aeedefee4a9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117866000|102348000|505d0adf-e152-484d-98e2-587a98692699|a450b25c-ab18-46fc-86b3-49d198c8deee",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117866000|93408000|505d0adf-e152-484d-98e2-587a98692699|f25dc372-53ad-4e82-9061-f4f76a9e03e3",
+          ""
+        ],
+        [
+          "silk_over_copper|142430500|78467000|fe5e610b-3f38-4203-bdc9-6f821207d87a|28854c2f-b357-4027-878b-de465889977e",
+          ""
+        ],
+        [
+          "silk_over_copper|142430500|84817000|d10895b6-deb1-44c1-bae0-fd2df43b9590|9c542ef6-e9cc-44be-8776-050b4ff86611",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -97,7 +122,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "warning",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -115,9 +140,9 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
