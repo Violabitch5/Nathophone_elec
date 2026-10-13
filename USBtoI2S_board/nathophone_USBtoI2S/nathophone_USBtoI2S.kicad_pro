@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.13,
-          "width": 0.89
+          "height": 2.25,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.4,
+          "corner_smoothing": 2,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -71,7 +87,23 @@
           ""
         ],
         [
+          "lib_footprint_issues|192215650|89154000|064b8176-9634-4a0e-a0de-e91595886496|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|121008500|99737250|1fe72e38-7369-46f2-9e02-0ed966b14ed5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|141578500|98552000|c5e2c25c-20d1-4f10-a6b1-5aeedefee4a9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|144486630|79229000|c6b2bdce-bf6d-4273-95cc-2d729a5ea774|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|153935500|101908000|dd935460-6c90-453c-b919-28c2f342307b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -83,11 +115,11 @@
           ""
         ],
         [
-          "silk_over_copper|142430500|78467000|fe5e610b-3f38-4203-bdc9-6f821207d87a|28854c2f-b357-4027-878b-de465889977e",
+          "starved_thermal|152788000|103083000|6747790a-61bc-4b2a-ab74-66ba4a0b07dc|5d713348-ba14-489b-bb77-15de5ba8f91d|F.Cu",
           ""
         ],
         [
-          "silk_over_copper|142430500|84817000|d10895b6-deb1-44c1-bae0-fd2df43b9590|9c542ef6-e9cc-44be-8776-050b4ff86611",
+          "starved_thermal|180426000|87072000|6747790a-61bc-4b2a-ab74-66ba4a0b07dc|d1b63e96-97b9-4af6-929e-6c38baf077a4|F.Cu",
           ""
         ]
       ],
@@ -176,7 +208,7 @@
         "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -303,7 +335,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -512,6 +544,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -595,7 +628,7 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
-        "tuning_profile": "USB_DIFF"
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -616,10 +649,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerbers",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -880,9 +917,17 @@
     "meta": {
       "version": 1
     },
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [

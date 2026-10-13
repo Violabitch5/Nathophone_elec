@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "73083a78-b210-4e93-8003-5766485f96bf")
 	(paper "A4")
+	(title_block
+		(title "Nathophone USB_to_I2S Module")
+		(date "2026-08-08")
+		(rev "v3")
+		(company "Private")
+	)
 	(lib_symbols)
 	(sheet
 		(at 29.21 28.575)

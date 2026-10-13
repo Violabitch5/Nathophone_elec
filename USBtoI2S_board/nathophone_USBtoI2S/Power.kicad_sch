@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "567de95a-d5e6-46e9-9c60-6997cfd622d5")
 	(paper "A4")
+	(title_block
+		(title "Nathophone USB_to_I2S Module")
+		(date "2026-08-08")
+		(rev "v3")
+		(company "Private")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC2G07"
 			(exclude_from_sim no)
@@ -1072,6 +1078,296 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "USB_to_I2S_Board:AP7361C-FGE-7"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.7 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AP7361C-FGE-7"
+				(at -12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AP7361C-FGE-7:SON65P300X300X63-9N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "5 - 2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.63 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Diodes Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "AP7361C-FGE-7_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "ADJ/NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "NC__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "NC__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2308,6 +2604,18 @@
 		(uuid "1af3b42c-ced4-42cc-9edf-781f9690b0a3")
 	)
 	(junction
+		(at 115.57 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "306019f5-3f18-4f02-b612-3711fc34f25d")
+	)
+	(junction
+		(at 63.5 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bed2b16-dcec-483c-bf25-19a715cfefc3")
+	)
+	(junction
 		(at 172.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2356,10 +2664,22 @@
 		(uuid "a1bfe226-f796-4014-8edb-61200e012958")
 	)
 	(junction
+		(at 125.73 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fd38eb-8abb-4f44-bd0d-2653785e29e2")
+	)
+	(junction
 		(at 207.01 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5afae4-6239-4777-9890-a5c03082de6c")
+	)
+	(junction
+		(at 63.5 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3282465-7a58-47cb-9914-ddb865ed0d35")
 	)
 	(junction
 		(at 165.1 119.38)
@@ -2472,6 +2792,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 171.45) (xy 115.57 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10203600-2e63-4548-b54b-24a7c228c065")
+	)
+	(wire
+		(pts
 			(xy 46.99 116.84) (xy 44.45 116.84)
 		)
 		(stroke
@@ -2499,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "141ea547-5f1d-465b-b2db-42ef1221a103")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ed4bee-1cc7-41b4-92be-2adfc4d70bfe")
 	)
 	(wire
 		(pts
@@ -2652,6 +2992,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 168.91) (xy 115.57 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479c9398-e425-447c-a3a2-2241e9154bad")
+	)
+	(wire
+		(pts
 			(xy 104.14 116.84) (xy 104.14 119.38)
 		)
 		(stroke
@@ -2699,6 +3049,16 @@
 			(type default)
 		)
 		(uuid "550730f2-6875-4c4f-8222-7388448a1606")
+	)
+	(wire
+		(pts
+			(xy 125.73 165.1) (xy 125.73 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59665a88-a7c6-42b6-91e8-0a57d5c77aee")
 	)
 	(wire
 		(pts
@@ -2782,6 +3142,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 158.75) (xy 76.2 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63413e99-d2e2-4549-b83e-5ecf94724c0b")
+	)
+	(wire
+		(pts
 			(xy 149.86 78.74) (xy 153.67 78.74)
 		)
 		(stroke
@@ -2802,6 +3172,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 171.45) (xy 115.57 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a54338c-968f-4223-a71c-6acb0ecdf592")
+	)
+	(wire
+		(pts
 			(xy 163.83 71.12) (xy 163.83 73.66)
 		)
 		(stroke
@@ -2819,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "6b712fd3-6bb5-4272-a4fb-1dbe3c97e121")
+	)
+	(wire
+		(pts
+			(xy 63.5 158.75) (xy 63.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73dd2853-c98e-4eb5-929e-787cb4e3a8ce")
 	)
 	(wire
 		(pts
@@ -2892,6 +3282,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 160.02) (xy 125.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9901a910-4880-459b-a941-188d150dcbaf")
+	)
+	(wire
+		(pts
 			(xy 109.22 66.04) (xy 104.14 66.04)
 		)
 		(stroke
@@ -2939,6 +3339,36 @@
 			(type default)
 		)
 		(uuid "ab89d26a-d475-4460-8d74-dc218a834714")
+	)
+	(wire
+		(pts
+			(xy 125.73 153.67) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0a590b-2c0b-4f7c-8ee9-248f7b231fb1")
+	)
+	(wire
+		(pts
+			(xy 63.5 168.91) (xy 63.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64fcc12-1c0a-4cb8-8673-9a917d592546")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cefce4-cf6d-4529-b20e-24b7ae54e071")
 	)
 	(wire
 		(pts
@@ -3032,6 +3462,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 168.91) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12922c0-6272-46de-9d96-ad1c7774ec6b")
+	)
+	(wire
+		(pts
 			(xy 105.41 58.42) (xy 105.41 53.34)
 		)
 		(stroke
@@ -3039,6 +3479,16 @@
 			(type default)
 		)
 		(uuid "d5d38ef0-b089-4d89-b040-f616a0b0f42f")
+	)
+	(wire
+		(pts
+			(xy 111.76 153.67) (xy 125.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8497a38-7aac-46aa-91ca-cac6b6551c18")
 	)
 	(wire
 		(pts
@@ -3059,6 +3509,16 @@
 			(type default)
 		)
 		(uuid "de3c025c-60aa-4149-a44a-38ce6f1caacc")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83714bd-687b-4c68-93a4-0737dcf9a124")
 	)
 	(wire
 		(pts
@@ -3578,6 +4038,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa31329-e408-4375-9e62-2a2bc1c0425c")
+		(property "Reference" "#PWR076"
+			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e93d4d9-b232-49da-b838-96a807c4b3c9")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 240.03 107.95 0)
 		(unit 1)
@@ -3786,6 +4324,84 @@
 			(project "nathophone_USBtoI2S"
 				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "203e2d5c-9dcd-4c50-9461-244d499db28a")
+		(property "Reference" "#PWR074"
+			(at 63.5 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cc2674a-6425-450d-b358-45095c09d866")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4020,6 +4636,153 @@
 			(project "nathophone_USBtoI2S"
 				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 125.73 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a0b2223-162b-4fe6-a235-cc4061d656cd")
+		(property "Reference" "C43"
+			(at 128.524 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 128.524 163.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X7R"
+			(at 128.524 165.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage Rating" "75V"
+			(at 128.524 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DigiKey Part Number" "445-C3225X7R1N106K250ACCT-ND"
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3225X7R1N106K250AC"
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 125.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c44cf647-ad26-4245-8654-dddd6a95afaf")
+		)
+		(pin "2"
+			(uuid "46dbe39b-e1bd-419e-9572-e882e67bf009")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -4810,6 +5573,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c10f14f-7293-4532-876d-34c5cce0d594")
+		(property "Reference" "#PWR075"
+			(at 125.73 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5c69dc1-7ec3-4708-9da1-858232507648")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "USB_to_I2S_Board:MAX809STRG")
 		(at 46.99 116.84 0)
 		(unit 1)
@@ -5190,6 +6031,84 @@
 			(project "nathophone_USBtoI2S"
 				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 125.73 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5816a0f7-a841-4774-bac0-cbeab1f042bc")
+		(property "Reference" "#PWR073"
+			(at 125.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 125.73 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 125.73 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fe4f472-58ad-4e4c-89b1-48db9e3459b8")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6692,6 +7611,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2eacd87-b241-4893-9e9e-40a8a2588414")
+		(property "Reference" "#PWR077"
+			(at 115.57 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cf82cea-15f0-4b20-bed3-e2a8abf934dd")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 259.08 120.65 0)
 		(unit 1)
@@ -7350,6 +8347,325 @@
 			(project "nathophone_USBtoI2S"
 				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB_to_I2S_Board:AP7361C-FGE-7")
+		(at 93.98 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b2db9b-46f1-40b0-95e9-95fc260adc2e")
+		(property "Reference" "U6"
+			(at 93.98 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7361C-33FGE-7"
+			(at 93.98 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB_to_I2S_Board:SON65P300X300X63-9N"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "5 - 2"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.63 mm"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc."
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey Part Number" "AP7361C-33FGE-7DICT-ND"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP7361C-33FGE-7"
+			(at 93.98 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "992cc2a5-1153-4536-829e-c9ae2ef99b53")
+		)
+		(pin "7"
+			(uuid "904b3875-14fb-42da-9d17-f55c2932e551")
+		)
+		(pin "3"
+			(uuid "be4931d0-bb39-4a19-933f-93952ef77312")
+		)
+		(pin "4"
+			(uuid "017e332d-9c71-40a6-b046-a0b4f6c745d9")
+		)
+		(pin "5"
+			(uuid "d2e13359-5e2c-4c07-8ef2-6ad032e278b4")
+		)
+		(pin "1"
+			(uuid "b5391778-10ed-4a12-82cc-8fddf92eaa17")
+		)
+		(pin "2"
+			(uuid "20404e79-e100-4f2b-a79a-6e3f61e3e371")
+		)
+		(pin "6"
+			(uuid "defea0ff-7a08-4299-a9ae-7a1a3ec2c493")
+		)
+		(pin "8"
+			(uuid "e30ef112-52f7-4b0c-852d-8bc2990b9782")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3efcab4-168d-4f22-8881-4c6a32e8d8ab")
+		(property "Reference" "C42"
+			(at 66.294 164.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 66.294 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X7R"
+			(at 66.294 169.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage Rating" "75V"
+			(at 66.294 171.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DigiKey Part Number" "445-C3225X7R1N106K250ACCT-ND"
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3225X7R1N106K250AC"
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41445415-01f1-4121-a66e-a5d83b7d6a71")
+		)
+		(pin "2"
+			(uuid "85f92ddf-db55-4590-bedb-a22a4dff55bc")
+		)
+		(instances
+			(project "nathophone_USBtoI2S"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf/f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0"
+					(reference "C42")
 					(unit 1)
 				)
 			)

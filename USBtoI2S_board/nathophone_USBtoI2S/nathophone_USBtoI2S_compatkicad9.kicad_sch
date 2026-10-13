@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73083a78-b210-4e93-8003-5766485f96bf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 29.21 28.575)
+		(size 39.37 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51c3bdb3-3695-4d1d-95e1-6cc4e3de1137")
+		(property "Sheetname" "Connectors_Misc"
+			(at 29.21 27.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors_Power_Misc_compatkicad9.kicad_sch"
+			(at 29.21 55.8296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nathophone_USBtoI2S_compatkicad9"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 28.575)
+		(size 33.02 27.305)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d5aec94-e23b-4d4e-a1c8-377b9d43f930")
+		(property "Sheetname" "XMOS"
+			(at 85.09 27.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xmos_compatkicad9.kicad_sch"
+			(at 85.09 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nathophone_USBtoI2S_compatkicad9"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.095 28.575)
+		(size 27.94 27.305)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f50ae116-d0e4-4ab6-b2c2-36a7a8c146e0")
+		(property "Sheetname" "Power"
+			(at 125.095 27.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_compatkicad9.kicad_sch"
+			(at 125.095 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nathophone_USBtoI2S_compatkicad9"
+				(path "/73083a78-b210-4e93-8003-5766485f96bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -5,9 +5,9 @@
 	(uuid "a7e5baec-b744-4a13-b84f-3d20be72978f")
 	(paper "A4")
 	(title_block
-		(title "USB to I2S Module")
-		(date "2026-05-07")
-		(rev "0")
+		(title "Nathophone USB_to_I2S Module")
+		(date "2026-08-08")
+		(rev "v3")
 		(company "Private")
 	)
 	(lib_symbols
@@ -10414,7 +10414,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.xmos.com/documentation/XM-014532-PC/pdf/XU316-1024-TQ128.pdf"
+		(property "Datasheet" "https://www.xmos.com/documentation/XM-014532-PC/html/rst/XU316-1024-TQ128.html"
 			(at 82.55 90.17 0)
 			(hide yes)
 			(show_name no)
