@@ -11,129 +11,6 @@
 		(company "Private")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -4798,12 +4675,6 @@
 		(color 0 0 0 0)
 		(uuid "fe5bddba-9208-49da-93d3-2a6294971189")
 	)
-	(junction
-		(at 36.83 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff5c1392-a282-4d35-bae8-d0632e3520b5")
-	)
 	(bus_entry
 		(at 128.27 57.15)
 		(size -2.54 2.54)
@@ -6214,16 +6085,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 154.94) (xy 60.96 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7177037c-c9e8-430c-9591-3737b61b61f7")
-	)
-	(wire
-		(pts
 			(xy 219.71 50.8) (xy 219.71 48.26)
 		)
 		(stroke
@@ -6981,16 +6842,6 @@
 			(type default)
 		)
 		(uuid "c97db589-4459-4757-8fca-38fbe7a149a9")
-	)
-	(wire
-		(pts
-			(xy 30.48 143.51) (xy 36.83 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b9bc07-5916-4a33-bcb6-d0e38082e073")
 	)
 	(wire
 		(pts
@@ -9909,107 +9760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "408b7833-9e99-48c5-87dd-0b85c6671429")
-		(property "Reference" "TP1"
-			(at 29.21 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 29.21 142.2401 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 25.4 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 30.48 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 30.48 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "507b0b2a-b07f-495a-b281-7a0655a88396")
-		)
-		(instances
-			(project "nathophone_USBtoI2S"
-				(path "/73083a78-b210-4e93-8003-5766485f96bf/5d5aec94-e23b-4d4e-a1c8-377b9d43f930"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 223.52 62.23 0)
 		(unit 1)
@@ -10109,7 +9859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "22p"
 			(at 38.608 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10175,7 +9925,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DigiKey Part Number" "399-C0603C180C5GACTUCT-ND"
+		(property "DigiKey Part Number" "399-C0603C220J5GACTUCT-ND"
 			(at 36.83 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10186,7 +9936,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C180C5GACTU"
+		(property "MPN" "C0603C220J5GACTU"
 			(at 36.83 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +10732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "22p"
 			(at 57.404 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,7 +10798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DigiKey Part Number" "399-C0603C180C5GACTUCT-ND"
+		(property "DigiKey Part Number" "399-C0603C220J5GACTUCT-ND"
 			(at 54.61 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11059,7 +10809,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C180C5GACTU"
+		(property "MPN" "C0603C220J5GACTU"
 			(at 54.61 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11467,7 +11217,7 @@
 				)
 			)
 		)
-		(property "Tol." "0.5%"
+		(property "Tol." "0.1%"
 			(at 35.56 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11228,7 @@
 				(justify right)
 			)
 		)
-		(property "DigiKey Part Number" "311-680DCT-ND"
+		(property "DigiKey Part Number" "YAG1714CT-ND"
 			(at 36.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11239,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0603DRD07680RL"
+		(property "MPN" "RT0603BRD07680RL"
 			(at 36.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13004,107 +12754,6 @@
 			(project "nathophone_USBtoI2S"
 				(path "/73083a78-b210-4e93-8003-5766485f96bf/5d5aec94-e23b-4d4e-a1c8-377b9d43f930"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 60.96 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc82b65b-a254-40a8-8643-f5402368769b")
-		(property "Reference" "TP2"
-			(at 62.23 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 62.23 156.2099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 66.04 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 60.96 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 60.96 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14d5553e-a846-4703-a483-c89e8f59d387")
-		)
-		(instances
-			(project "nathophone_USBtoI2S"
-				(path "/73083a78-b210-4e93-8003-5766485f96bf/5d5aec94-e23b-4d4e-a1c8-377b9d43f930"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
