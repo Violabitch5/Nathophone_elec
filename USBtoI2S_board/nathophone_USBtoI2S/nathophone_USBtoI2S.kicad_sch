@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Nathophone USB_to_I2S Module")
-		(date "2026-08-08")
-		(rev "v3")
+		(date "2026-11-12")
+		(rev "v4")
 		(company "Private")
 	)
 	(lib_symbols)
